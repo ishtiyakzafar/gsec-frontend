@@ -1,0 +1,134 @@
+h1.gseclandingheading{
+    margin-top: 42px;
+    margin-bottom: 15px;
+}
+
+.gseclandingWrap
+{
+    display: flex;
+    gap: 30px;
+
+    @media screen and (max-width:767px) {
+        display: block;
+    }
+}
+
+.singleGsec
+{
+    background: #fff;
+    box-shadow: 0 0 30px #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px 0;
+    width: 100%;
+    float: left;
+    position: relative;
+    transition: all 0.3s;
+
+    &:hover
+    {
+        transform: scale(1.01);
+        transition: all 0.3s;
+    }
+
+    .gsecType
+    {
+        background: #160F58;
+        position: absolute;
+        top: -8px;
+        font-weight: 500;
+        font-size: 12px;
+        color: #fff;
+        padding: 3px 10px;
+        left: 20px;
+        border-radius: 0 0px 5px 5px;
+
+        &::after{
+            content: '';
+            width: 0;
+            height: 0;
+            border-bottom: 8px solid #160f58;
+            border-right: 16px solid transparent;
+            top: 0px;
+            position: absolute;
+            left: 100%;
+            transform: translate(-0.3px, 0px);
+        }
+    }
+    .gsecTopBadge
+    {
+        background: #900AD5;
+        color: #fff;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        padding: 5px 15px;
+        transform: translate(0,-50%);
+        border-radius: 20px;
+    }
+    .gsecHead
+    {
+        display: grid;
+        grid-template-columns: 60px auto;
+        align-items: center;
+        margin-top: 20px;
+        .gsecLogo
+        {
+            img{
+                max-width: 100%;
+            }
+        }
+        .gsecTitle
+        {
+            padding-left: 20px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+    .investDetails
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 30px 0;
+        p{
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+    .applyGsecButton{
+        background: linear-gradient(144.66deg, #FF9556 3.94%, #F36F21 91.87%);
+        width: 100%;
+        border: none;
+        border-radius: 50px;
+        min-height: 58px;
+        font-size: 18px;
+        color: #fff;
+        b{
+            font-weight: 600;
+        }
+        transition: all 0.3s;
+        &:hover
+        {
+            transform: scale(1.01);
+            transition: all 0.3s;
+        }
+    }
+
+    
+    
+}
+
+.allbondsbutton
+    {
+        margin: 20px 0;
+        width: 100%;
+        background: #FBEDE0;
+        border: 1px solid #F36F21;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #F36F21;
+        padding: 15px 0;
+        border-radius: 40px;
+    }

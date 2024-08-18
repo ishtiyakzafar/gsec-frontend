@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="83">
+    <defs>
+        <radialGradient id="a" cx="0" cy="0" r="1.338" gradientTransform="rotate(48.37)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </radialGradient>
+    </defs>
+    <g data-name="Group 15292">
+        <path data-name="Path 12210" d="M41.5 0A41.5 41.5 0 1 1 0 41.5 41.5 41.5 0 0 1 41.5 0z" style="fill:url(#a)"/>
+    </g>
+</svg>

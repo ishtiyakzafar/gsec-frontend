@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157.723" height="128.85" viewBox="0 0 157.723 128.85">
+    <defs>
+        <radialGradient id="radial-gradient" cx=".317" cy=".088" r="1.475" gradientTransform="rotate(60 0 -.089)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f3c821"/>
+            <stop offset="1" stop-color="#f36f21"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-3" cx="0" cy="0" r="1.338" gradientTransform="rotate(48.37)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </radialGradient>
+        <style>
+            .cls-1{fill:url(#radial-gradient)}.cls-2,.cls-3{fill:#fff}.cls-2{font-size:17px;font-family:Poppins-Medium,Poppins;font-weight:500;letter-spacing:.004em}.cls-3{font-size:10px;font-family:Poppins-Regular,Poppins;opacity:.8}
+        </style>
+    </defs>
+    <g id="Group_20924" data-name="Group 20924" transform="translate(-20648.109 -7447.406)">
+        <g id="Group_17964" data-name="Group 17964" transform="translate(20433.82 7013.152)">
+            <g id="Group_15292" data-name="Group 15292" transform="translate(256.033 509.033)">
+                <path id="Path_12210" data-name="Path 12210" class="cls-1" d="M26.035 0A26.035 26.035 0 1 1 0 26.035 26.035 26.035 0 0 1 26.035 0z" transform="translate(0 2)"/>
+            </g>
+            <g id="Group_15451" data-name="Group 15451" transform="translate(268.034 519.032)">
+                <g id="Group_20880" data-name="Group 20880">
+                    <text id="_5" data-name="5" class="cls-2" transform="translate(15.169 18)"><tspan x="-5.432" y="0">5</tspan></text>
+                    <text id="Years" class="cls-3" transform="translate(14 31.339)"><tspan x="-13.875" y="0">Years</tspan></text>
+                </g>
+            </g>
+        </g>
+        <g id="Group_20882" data-name="Group 20882" transform="translate(20478.141 6939.127)">
+            <g id="Group_15292-2" data-name="Group 15292" transform="translate(255.969 508.557)">
+                <path id="Path_12210-2" data-name="Path 12210" class="cls-1" d="M35.861 0A35.861 35.861 0 1 1 0 35.861 35.861 35.861 0 0 1 35.861 0z" transform="translate(0 -.278)"/>
+            </g>
+            <g id="Group_15451-2" data-name="Group 15451" transform="translate(271.783 522.279)">
+                <g id="Group_20880-2" data-name="Group 20880">
+                    <text id="_11" data-name="11" transform="translate(20.185 22)" style="font-size:21px;font-family:Poppins-Medium,Poppins;font-weight:500;letter-spacing:.004em;fill:#fff"><tspan x="-7.392" y="0">11</tspan></text>
+                    <text id="Years-2" data-name="Years" class="cls-3" transform="translate(20.186 40)"><tspan x="-13.875" y="0">Years</tspan></text>
+                </g>
+            </g>
+        </g>
+        <g id="Group_17963" data-name="Group 17963" transform="translate(20492.109 7008.406)">
+            <circle id="Ellipse_231" data-name="Ellipse 231" cx="33.89" cy="33.89" r="33.89" transform="translate(156 439)" style="fill:url(#radial-gradient-3)"/>
+            <g id="Group_20881" data-name="Group 20881" transform="translate(175.986 453.772)">
+                <text id="_8" data-name="8" class="cls-2" transform="translate(13.69 18)"><tspan x="-5.423" y="0">8</tspan></text>
+                <text id="Years-3" data-name="Years" class="cls-3" transform="translate(0 33.331)"><tspan x="0" y="0">Years</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,126 @@
+$smobile: 767px;
+
+.main {
+	width: 100%;
+	margin: 74px 0 0;
+	padding: 72px 70px 36px 112px;
+	color: #fff;
+	background-color: #241f55;
+	display: grid;
+	grid-template-columns: 1.65fr 1fr 1fr 1fr;
+	background-image: none;
+}
+.footcopyright {
+    border-top: 1px solid #707070;
+    grid-column: 1/5;
+    margin-top: 40px;
+    padding-top: 25px;
+	@media screen and(max-width:767px) {
+		font-size: 12px;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+
+	.oneUpLogo {
+		width: 13rem;
+	}
+
+	.poweredByLogo {
+		margin-top: 10px;
+		width: 15rem;
+	}
+
+	p {
+		width: 245px;
+		height: 63px;
+		margin-top: 15.5px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #a0abb8;
+		@media screen and (max-width:$smobile) 
+		{
+			width: 100%;
+			margin-bottom: 10px;
+			text-align: center;
+			margin-top: 20px;
+			height: max-content;
+		}
+
+	}
+
+	span {
+		margin: 84px 0 0;
+		font-family: Poppins;
+		font-size: 12px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #a0abb8;
+	}
+}
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	@media screen and (max-width:$smobile) 
+		{
+			width: 100%;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+
+	a {
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #a0abb8;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.main {
+		width: 100%;
+		margin: 74px 0 0;
+		padding: 72px 36px 36px 112px;
+		color: #fff;
+		background-color: #241f55;
+		display: grid;
+		grid-template-columns: 1.65fr 1fr 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main {
+		padding: 31px 20px;
+		display: flex;
+		flex-direction: column;
+		.left {
+			display: flex;
+			flex-direction: row;
+			.poweredByLogo {
+				height: 20px;
+				width: 12rem;
+				align-self: flex-end;
+			}
+		}
+	}
+}

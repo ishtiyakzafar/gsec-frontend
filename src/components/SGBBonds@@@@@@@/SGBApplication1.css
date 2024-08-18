@@ -1,0 +1,342 @@
+html {
+  font-size: 0.73vw;
+}
+.loading_screen{
+  height:140vh !important;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #303030;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+/* Header starts here */
+#sgb-ap1-header {
+  padding: 4rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sgb-ap1-header-left {
+  display: flex;
+  gap: 2.3rem;
+}
+
+.sgb-ap1-header-left img {
+  width: 6.2rem;
+  height: 6.2rem;
+}
+
+.sgb-ap1-header-left h1 {
+  font-size: 2.4rem;
+}
+
+.sgb-ap1-header-left div .header-heading-subtext {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.sgb-ap1-header-left div .header-heading-subtext p {
+  opacity: 0.4;
+}
+
+.sgb-ap1-header-left div .header-heading-subtext p:last-child {
+  color: #ff0000;
+  opacity: 1;
+}
+
+.sgb-ap1-header-right .steps {
+  display: flex;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.sgb-ap1-header-right .steps p {
+  padding: 0.2rem 0.9rem;
+  border-radius: 50%;
+  background-color: #e7e5e9;
+  opacity: 0.8;
+}
+
+.sgb-ap1-header-right .steps p:first-child {
+  padding: 0.2rem 1.1rem;
+}
+
+.sgb-ap1-header-right .steps p:first-child {
+  background-image: radial-gradient(circle at 0 0, #21f3f3, #214cf3);
+  color: #ffff;
+  opacity: 1;
+}
+
+.sgb-ap1-header-right .steps hr {
+  border: none;
+  background-color: #000;
+  height: 0.2rem;
+  opacity: 0.08;
+  width: 100%;
+  margin-top: 1.1rem;
+}
+
+.sgb-ap1-header-right .step-names {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.sgb-ap1-header-right .step-names p {
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.sgb-ap1-header-right .step-names p:nth-child(1) {
+  opacity: 1;
+}
+
+.sgb-ap1-header-right .step-names p:nth-child(3) {
+  margin-left: 3rem;
+  text-align: center !important;
+}
+
+.sgb-ap1-header-right .step-names p:last-child {
+  margin-left: 5.5rem;
+  text-align: center !important;
+}
+
+#sgb-ap1-form {
+  padding: 6rem 7rem 20rem 7rem;
+}
+
+#sgb-ap1-form h1 {
+  font-size: 2rem !important;
+  margin-bottom: 2rem;
+}
+
+.sgb-ap1-input-container {
+  display: flex;
+  padding: 4.5rem;
+  gap: 10rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.3rem 2.4rem 0 rgba(0, 0, 0, 0.08);
+}
+
+.sgb-ap1-input-container .input {
+  flex: 1;
+}
+
+.sgb-ap1-input-container .input > p {
+  margin-bottom: 1.2rem;
+  opacity: 0.8;
+}
+
+.sgb-app-price-bubble {
+  display: grid;
+  position: relative;
+  width: 12rem;
+  height: auto;
+  background-image: radial-gradient(circle at 0 0, #21f3f3, #214cf3);
+  color: #ffff;
+  font-size: 2rem;
+  padding: 0.7rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.sgb-app-price-bubble:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 45%;
+  bottom: -1.3rem;
+  border: 0.7rem solid;
+  border-color: #2090b8 transparent transparent;
+}
+
+.sgb-app-input {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 0.8rem;
+  outline: none;
+  border-radius: 0.5rem;
+  background-image: radial-gradient(circle at 0 0, #21f3f3, #214cf3);
+  margin-top: 1rem;
+}
+
+.sgb-app-input::-webkit-slider-thumb {
+  height: 4rem;
+  width: 2rem;
+  background: url("../../assets/images/Sgb/Group 13934.svg") no-repeat;
+  background-position: center;
+  background-size: 4rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.sgb-app-price-labels {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 3rem;
+  opacity: 0.4;
+}
+
+.sgb-app-price-labels span:first-child {
+  flex: 1;
+}
+.sgb-ap1-avail-balance {
+  margin-top: 1rem;
+}
+.sgb-ap1-input-container .sgb-ap1-quantity {
+  padding-right: 14rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sgb-ap1-input-container .sgb-ap1-quantity p {
+  line-height: 2;
+}
+
+.sgb-ap1-input-container .sgb-ap1-quantity p:first-child {
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.sgb-ap1-input-container .sgb-ap1-quantity p:nth-child(2) {
+  font-size: 2.8rem;
+}
+.sgb-ap1-input-container .sgb-ap1-quantity p:last-child {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+#sgb-ap1-footer {
+  background-color: #241f55 !important;
+  background-image: none !important;
+  padding: 1rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sgb-ap1-footer a {
+  display: flex;
+  align-items: center;
+}
+
+#sgb-ap1-footer p {
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+#sgb-ap1-footer p span {
+  display: block;
+  font-size: 1.6rem;
+  opacity: 0.6;
+}
+
+#sgb-ap1-footer .next-btn {
+  font-weight: 600;
+  justify-content: space-between;
+  width: 15.7rem;
+  color: #241f55;
+  background-color: #fff;
+  font-size: 2.4rem;
+  padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+  border-radius: 1.2rem;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+#sgb-ap1-footer .adfundsdisabled {
+  cursor: not-allowed !important;
+  color: #707070 !important;
+  background-color: #fff !important;
+  font-size: 2rem;
+  font-weight: 600;
+  justify-content: space-between;
+  width: 17rem;
+  padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+  border-radius: 1.2rem;
+  border: none !important;
+}
+@media (max-width: 769px) {
+  html {
+    font-size: 1.29vw;
+  }
+
+  #sgb-ap1-header {
+    flex-direction: column-reverse;
+    justify-content: column-reverse;
+    gap: 3rem;
+    padding: 4rem;
+  }
+
+  .sgb-ap1-header-left div .header-heading-subtext {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .sgb-ap1-header-left div .header-heading-subtext p:nth-child(2) {
+    display: none;
+  }
+
+  sgb-ap1-header-right .step-names {
+    gap: 11rem;
+  }
+
+  #sgb-ap1-form {
+    padding: 1rem 5rem 13rem 5rem;
+  }
+
+  #sgb-ap1-form .sgb-ap1-input-container {
+    flex-direction: column;
+  }
+
+  .sgb-ap1-input-container .input {
+    flex: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 1.9vw;
+  }
+
+  #sgb-ap1-header {
+    padding: 4rem 2rem;
+  }
+
+  .sgb-ap1-header-right .step-names {
+    gap: 4rem;
+  }
+
+  #sgb-ap1-form {
+    padding: 1rem 2rem 15rem 2rem;
+  }
+
+  #sgb-ap1-footer {
+    padding: 1rem 2rem;
+  }
+}

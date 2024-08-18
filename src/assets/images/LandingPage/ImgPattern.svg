@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90.001">
+    <defs>
+        <linearGradient id="a" x1=".5" x2=".824" y2=".088" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#241f55"/>
+            <stop offset="1" stop-color="#241f55" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <path data-name="Subtraction 37" d="M25.094 50.188a25.1 25.1 0 0 1-9.768-48.216 25.1 25.1 0 0 1 19.536 46.245 24.937 24.937 0 0 1-9.768 1.971zm0-49.72A24.625 24.625 0 1 0 49.72 25.094 24.653 24.653 0 0 0 25.094.469z" transform="rotate(142 31.612 38.478)" style="fill:url(#a);opacity:.8"/>
+    <path data-name="Subtraction 38" d="M32.551 65.1A32.56 32.56 0 0 1 19.88 2.558a32.56 32.56 0 0 1 25.34 59.986A32.347 32.347 0 0 1 32.551 65.1zm0-64.494a31.943 31.943 0 1 0 31.942 31.945A31.978 31.978 0 0 0 32.55.608z" transform="rotate(-80 46.193 31.357)" style="opacity:.2;fill:url(#a)"/>
+    <path data-name="Subtraction 39" d="M41.537 83.076A41.549 41.549 0 0 1 25.369 3.264a41.549 41.549 0 0 1 32.337 76.548 41.277 41.277 0 0 1-16.169 3.264zm0-82.3A40.762 40.762 0 1 0 82.3 41.538 40.807 40.807 0 0 0 41.537.776z" transform="rotate(-175 43.344 43.194)" style="opacity:.1;fill:url(#a)"/>
+</svg>

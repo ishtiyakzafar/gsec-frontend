@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <linearGradient id="linear-gradient" x1="-.792" y1="-.501" x2=".928" y2="1.288" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#30eda8"/>
+            <stop offset="1" stop-color="#00bc78"/>
+        </linearGradient>
+        <filter id="Ellipse_1780" x="18.009" y="21.952" width="23.25" height="23.25" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_15651" data-name="Group 15651" transform="translate(.083 .418)">
+        <circle id="Ellipse_1779" data-name="Ellipse 1779" cx="30" cy="30" r="30" transform="translate(-.083 -.418)" style="fill:url(#linear-gradient)"/>
+        <g id="Group_17941" data-name="Group 17941" transform="translate(26.926 7.441)">
+            <path id="Union_36" data-name="Union 36" class="cls-2" d="M.656 26.947A1.429 1.429 0 0 1 0 25.745V1.43a1.43 1.43 0 0 1 2.86 0v22.8l12.94-5.494a1.43 1.43 0 0 1 1.118 2.633L2.434 27.517a1.429 1.429 0 0 1-1.779-.57z" transform="translate(1.348)"/>
+            <g transform="translate(-27.01 -7.86)" style="filter:url(#Ellipse_1780)">
+                <circle id="Ellipse_1780-2" data-name="Ellipse 1780" class="cls-2" cx="2.625" cy="2.625" r="2.625" transform="translate(27.01 30.95)"/>
+            </g>
+        </g>
+    </g>
+</svg>

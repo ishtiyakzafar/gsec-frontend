@@ -1,0 +1,45 @@
+trigger:
+- main
+- preprod
+- develop
+
+variables:
+  UATServiceConnection: 'www-iiflsecurities-UAT-ACR'
+  PROServiceConnection: 'www-iiflsecurities-PROD-ACR'
+  imageRepository: 'oneup-cms-web'
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+- stage: Build  
+  jobs:
+  - job: BuildJob
+    steps:
+    - ${{ if eq(variables['Build.SourceBranchName'], 'develop') }}:
+      - task: Docker@2
+        inputs:
+          containerRegistry: $(UATServiceConnection)
+          repository: $(Build.Repository.Name)
+          command: 'buildAndPush'
+          Dockerfile: '**/Dockerfile'
+          tags: $(Build.BuildId)
+    - ${{ else }}:
+      - task: Docker@2
+        inputs:
+          containerRegistry: $(PROServiceConnection)
+          repository: $(Build.Repository.Name)
+          command: 'buildAndPush'
+          Dockerfile: '**/Dockerfile'
+          tags: $(Build.BuildId)
+    - script: echo $(Build.BuildId) 
+    
+    - task: ArchiveFiles@2
+      inputs:
+        rootFolderOrFile: '$(System.DefaultWorkingDirectory)/k8s-yaml'
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+        replaceExistingArchive: true
+    - publish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      artifact: drop

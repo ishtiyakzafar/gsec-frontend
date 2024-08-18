@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="107.779" viewBox="0 0 90 107.779">
+    <defs>
+        <style>
+            .cls-5{fill:#c5c5c5}
+        </style>
+    </defs>
+    <g id="Group_18501" data-name="Group 18501" transform="translate(-131 -225.761)">
+        <g id="Group_18500" data-name="Group 18500" transform="translate(-157 5)" style="opacity:.6">
+            <path id="Path_12405" data-name="Path 12405" d="M0 0h63.908L77 10.318V96.54H0z" transform="translate(288 232)" style="fill:#b0adad;opacity:.74"/>
+        </g>
+        <g id="Group_18498" data-name="Group 18498" transform="translate(-150)">
+            <path id="Path_12405-2" data-name="Path 12405" d="M0 0h63.908L77 10.318V96.54H0z" transform="translate(288 232)" style="fill:#d1d1d1"/>
+        </g>
+        <g id="Group_18499" data-name="Group 18499" transform="translate(-144 -6)">
+            <path id="Path_12405-3" data-name="Path 12405" d="M0 0h63.908L77 10.318V96.54H0z" transform="translate(288 232)" style="fill:#eaeaea"/>
+            <rect id="Rectangle_5383" data-name="Rectangle 5383" class="cls-5" width="11" height="11" rx="5.5" transform="translate(298 247)"/>
+            <path id="Rectangle_5384" data-name="Rectangle 5384" class="cls-5" transform="translate(298 269)" d="M0 0h57v5H0z"/>
+            <path id="Rectangle_5385" data-name="Rectangle 5385" class="cls-5" transform="translate(298 279)" d="M0 0h57v5H0z"/>
+            <path id="Rectangle_5386" data-name="Rectangle 5386" class="cls-5" transform="translate(298 289)" d="M0 0h57v5H0z"/>
+            <path id="Path_12406" data-name="Path 12406" d="M0-.239 13 11H0z" transform="translate(352 232)" style="fill:#c4c4c4"/>
+        </g>
+    </g>
+</svg>

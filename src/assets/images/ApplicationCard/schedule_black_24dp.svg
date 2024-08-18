@@ -1,0 +1,10 @@
+<svg id="schedule_black_24dp" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+    <defs>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="Path_12227" data-name="Path 12227" d="M0 0h20v20H0z" style="fill:none"/>
+    <path id="Path_12228" data-name="Path 12228" class="cls-2" d="M10.325 2a8.333 8.333 0 1 0 8.342 8.333A8.329 8.329 0 0 0 10.325 2zm.008 15A6.667 6.667 0 1 1 17 10.333 6.665 6.665 0 0 1 10.333 17z" transform="translate(-.333 -.333)"/>
+    <path id="Path_12229" data-name="Path 12229" class="cls-2" d="M12.25 7H11v5l4.375 2.625L16 13.6l-3.75-2.225z" transform="translate(-1.833 -1.167)"/>
+</svg>

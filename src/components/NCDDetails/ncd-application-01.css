@@ -1,0 +1,458 @@
+html {
+    font-size: 0.73vw;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #303030;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 1.6rem;
+  }
+  
+  /* Header starts here */
+  #header {
+    padding: 4rem 7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-left {
+    display: flex;
+    gap: 2.3rem;
+  }
+  
+  .header-left img {
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+  
+  .header-left h1 {
+    font-size: 2.4rem;
+  }
+  
+  .header-left div .header-heading-subtext {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header-left div .header-heading-subtext p span {
+    opacity: 0.4;
+  }
+  .header-heading-subtext p span.lowopacity
+  {
+    opacity: 0.4 !important;
+  }
+  
+  .header-left div .header-heading-subtext p:first-child {
+    color: #ff0000;
+    opacity: 1;
+  }
+  
+  .header-right .steps {
+    display: flex;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  
+  .steps p {
+    padding: 0.2rem 0.9rem;
+    border-radius: 50%;
+    background-color: #e7e5e9;
+    opacity: 0.8;
+  }
+  
+  .steps p:first-child {
+    padding: 0.2rem 1.1rem;
+  }
+  
+  .steps p.active {
+    background-image: radial-gradient(circle at 0 0, #21f3f3, #214cf3);
+    color: #ffff;
+    opacity: 1;
+  }
+  
+  .steps hr {
+    border: none;
+    background-color: #000;
+    height: 0.2rem;
+    opacity: 0.08;
+    width: 100%;
+    margin-top: 1.1rem;
+  }
+  .steps hr.active {
+    background-image: radial-gradient(circle at 0 0, #21f3f3, #214cf3);
+    opacity: 1;
+  }
+  
+  
+  .step-names {
+    margin-top: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+  
+  .step-names p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    text-align: center;
+  }
+  
+  .step-names p:nth-child(1) {
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .step-names p:nth-child(3) {
+    margin-left: 3rem;
+  }
+  
+  .step-names p:last-child {
+    margin-left: 5.5rem;
+  }
+  
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 7rem 16rem 7rem;
+    gap: 1.2rem;
+  }
+  
+  .ncdapplication1 .card {
+    /* height: 41.5rem; */
+    box-sizing: border-box;
+    background-color: #ffff;
+    padding: 2.4rem;
+    box-shadow: 0 0.3rem 2.4rem 0 rgba(0, 0, 0, 0.08);
+    border-radius: 2.4rem;
+    border: none;
+    
+  }
+  .cardfreq
+  {
+    text-transform: capitalize;
+  }
+  
+  .card h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 1rem;
+  }
+  
+  .card h1 input[type="checkbox"] {
+    appearance: none;
+    border: 0.3rem solid #f36f21;
+    border-radius: 0.3rem;
+    height: 2.8rem;
+    width: 2.8rem;
+    cursor: pointer;
+  }
+  
+  .card h1 input[type="checkbox"]:checked {
+    background-image: url(./images/orange-checkbox.svg);
+    background-position: center;
+    background-size: 3.1rem;
+  }
+  
+  .card-info-1 {
+    margin: 2.4rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-info-1 p {
+    font-size: 1.6rem;
+    color: #303030;
+  }
+  
+  .card-info-1 p:first-child {
+    color: #00be79;
+    font-weight: 600;
+  }
+  
+  .card-info-1 p span {
+    font-weight: 500;
+    color: #303030;
+    display: block;
+    font-size: 1.2rem;
+    opacity: 0.4;
+  }
+  
+  .card hr {
+    border: none;
+    border-top: 0.1rem solid #707070;
+    opacity: 0.1;
+    margin-bottom: 2.4rem;
+  }
+  
+  .card .how-much-invest {
+    font-size: 1.4rem;
+    opacity: 0.4;
+    margin-bottom: 1.2rem;
+  }
+  
+  .price-bubble {
+    display: grid;
+    position: relative;
+    width: max-content;
+    height: auto;
+    background-image: radial-gradient(circle at 0 0, #21f3f3, #214cf3);
+    color: #ffff;
+    font-size: 2rem;
+    padding: 0.7rem;
+    text-align: center;
+    margin-bottom: 0.6rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transform: translate(-50%, 0px);
+  }
+  
+  .price-bubble:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 45%;
+    bottom: -1.3rem;
+    border: 0.7rem solid;
+    border-color: #2090b8 transparent transparent;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 0.8rem;
+    outline: none;
+    border-radius: 0.5rem;
+    background-image: radial-gradient(circle at 0 0, #21f3f3, #214cf3);
+    margin-top: 1rem;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    height: 4rem;
+    width: 2.3rem;
+    background: url(./images/Group\ 13934.svg) no-repeat;
+    background-position: center;
+    background-size: 4rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    -webkit-appearance: none;
+  }
+  
+  .price-labels {
+    font-size: 1.4rem;
+    display: flex;
+    gap: 3rem;
+    opacity: 0.4;
+    margin-top: 1rem;
+  }
+  
+  .price-labels span:first-child {
+    flex: 1;
+  }
+  
+  .card-info-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.7rem;
+  }
+  
+  .card-info-2 div p:first-child {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-weight: 500;
+  }
+  
+  .card-info-2 div p:first-child span {
+    font-size: 1.4rem;
+    opacity: 0.4;
+  }
+  
+  .card-info-2 div p:first-child img {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  
+  .card-info-2 div p:last-child {
+    font-size: 2rem;
+  }
+  
+  .card-info-2 div:first-child p:last-child {
+    font-weight: 600;
+  }
+  
+  .card-info-2 div:last-child p:last-child {
+    text-align: right;
+  }
+  
+  .card-info-2 div p:last-child span {
+    color: #00be79;
+  }
+  
+  .card.disable .price-bubble  {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.08);
+    color: #838383;
+  }
+  
+  .card.disable .price-input
+  {
+    pointer-events: none;
+  }
+  .card.disable  .price-bubble:after {
+    border-color: rgba(0, 0, 0, 0.08) transparent transparent;
+  }
+  
+  .card.disable  input[type="range"]{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  
+  .card.disable  .card-info-2 div p:last-child
+  {
+    opacity: 0.4;
+    color: #303030;
+  }
+  
+  footer {
+    background-image: linear-gradient(94deg, #21f3f3 -79%, #214cf3 93%);
+    padding: 1rem 7rem;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer a {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 2.4rem;
+  }
+  
+  footer p span {
+    display: block;
+    font-size: 1.6rem;
+    opacity: 0.6;
+  }
+  
+  footer .next-btn {
+    font-weight: 600;
+    justify-content: space-between;
+    width: 15.7rem;
+    color: #241f55;
+    background-color: #fff;
+    font-size: 2.4rem;
+    padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+    border-radius: 1.2rem;
+  }
+
+  footer.ncdfooter {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 9;
+  }
+  
+  @media (max-width: 769px) {
+    html {
+      font-size: 1.29vw;
+    }
+  
+    #header {
+      flex-direction: column-reverse;
+      justify-content: column-reverse;
+      gap: 3rem;
+      padding: 4rem;
+    }
+  
+    .header-left div .header-heading-subtext {
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .header-left div .header-heading-subtext .seperator {
+      display: none;
+    }
+  
+    .step-names {
+      gap: 11rem;
+    }
+  
+    #container {
+      grid-template-columns: 1fr;
+      padding: 1rem 4rem 6rem 4rem;
+      gap: 1.6rem;
+    }
+    footer.ncdfooter
+    {
+      text-align: center;
+      align-items: center;
+    }
+
+    footer.ncdfooter.singlClmnMobile {
+      flex-direction: row;
+      text-align: left;
+  }
+
+    footer.ncdfooter .buttons {
+      flex-direction: row;
+  }
+  footer.ncdfooter .buttons a {
+  padding: 10px;
+  width: 100%;
+  max-width: 50%;
+}
+
+  footer.ncdfooter p {
+      width: 100%;
+      margin-bottom: 0;
+  }
+
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    html {
+      font-size: 1.9vw;
+    }
+  
+    #header {
+      padding: 4rem 2rem;
+    }
+  
+    .step-names {
+      gap: 4rem;
+    }
+    #container {
+      padding: 1rem 2rem 6rem 2rem;
+    }
+  
+    footer {
+      padding: 1rem 2rem;
+    }
+  }
+  

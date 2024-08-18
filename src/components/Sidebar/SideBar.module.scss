@@ -1,0 +1,235 @@
+.main {
+	width: 70px;
+	height: 100%;
+	margin: 0 32px 0 0;
+	box-shadow: 0 3px 64px 0 rgba(10, 52, 116, 0.08);
+	background-color: #fff;
+	position: fixed;
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	.mobileMenu
+	{
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 20px;
+
+		.myApplications
+		{
+			position: relative;
+			span{
+				gap: 8px;
+				display: flex;
+				white-space: nowrap;
+				align-items: center;
+			}
+			.applicationHelperTooltip
+			{
+				background: #383182;
+				color: #fff;
+				min-width: 186px;
+				position: absolute;
+				right: 30px;
+				top: 100%;
+				transform: translate(0px, 20px);
+				padding: 10px;
+				border-radius: 10px;
+				box-shadow: 0 0 10px #707070;
+
+				&::after{
+					width: 0;
+					height: 0;
+					border-left: 10px solid transparent;
+					border-right: 10px solid transparent;
+					border-bottom: 20px solid #383182;
+					content: '';
+					top: -16px;
+					right: 40px;
+					position: absolute;
+				}
+
+				img{
+					position: absolute;
+					right: 10px;
+					top: 10px;
+				}
+			}
+		}
+	}
+}
+
+.sgbsidebarmain {
+	width: 70px;
+	height: 100%;
+	margin: 0 32px 0 0;
+	box-shadow: 0 3px 64px 0 rgba(10, 52, 116, 0.08);
+	background-color: #fff;
+	position: fixed;
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	zoom:0.80;
+}
+
+.items {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	gap: 36px;
+}
+
+.item {
+	$dia: 24px;
+	height: $dia;
+	width: $dia;
+	background: #b3bac3;
+	border: none;
+	outline: none;
+	mask-size: cover;
+
+	&:hover,
+	&:active,
+	&:focus {
+		border: none;
+		outline: none;
+	}
+
+	&:hover {
+		background: #2929299c;
+	}
+}
+
+.itemActive {
+	background: #292929;
+}
+
+.home {
+	mask: url('../../assets/images/SideBar/home_black_24dp.svg');
+}
+
+.applustatus {
+	mask: url('../../assets/images/SideBar/Orders.svg');
+}
+
+.gridView {
+	mask: url('../../assets/images/SideBar/grid_view_black_24dp.svg');
+}
+
+.favorite {
+	mask: url('../../assets/images/SideBar/favorite_black_24dp.svg');
+}
+
+.help {
+	mask: url('../../assets/images/SideBar/help_black_24dp.svg');
+}
+
+.bottom {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.account {
+	mask: url('../../assets/images/SideBar/account_circle_black_24dp\ \(1\).svg');
+}
+
+@media only screen and (max-width: 768px) {
+	.main {
+		min-width: 400px;
+		width: 100%;
+		height: 60px;
+		margin: 0 0 32px 0;
+		box-shadow: 0 3px 64px 0 rgba(10, 52, 116, 0.08);
+		background-color: #fff;
+		position: fixed;
+		z-index: 100;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.sgbsidebarmain{
+		min-width: 400px;
+		width: 100%;
+		height: 60px;
+		margin: 0 0 32px 0;
+		box-shadow: 0 3px 64px 0 rgba(10, 52, 116, 0.08);
+		background-color: #fff;
+		position: fixed;
+		z-index: 100;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.mobile {
+		min-width: 360px;
+		width: 100%;
+		height: 100%;
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.left {
+			display: flex;
+			align-items: flex-end;
+			height: 100%;
+			gap: 4px;
+			position: relative;
+			// left: -20px;
+			.logo {
+				height: 100%;
+				width: 78px;
+			}
+			span{
+				display: flex;
+				font-size: 12px;
+				position: absolute;
+				top: 11px;
+				left: 100%;
+				align-items: center;
+				gap: 5px;
+				width: 120px;
+				white-space: nowrap;
+			}
+			.powered {
+				width: 70px;
+				height: auto;
+			}
+		}
+
+		.right {
+			display: flex;
+			align-items: center;
+			gap: 24px;
+
+			button {
+				background: none;
+				border: none;
+				$dia: 24px;
+				width: $dia;
+				height: $dia;
+			}
+
+			.burger {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				padding: 6px 3px;
+
+				div {
+					height: 2px;
+					width: 100%;
+					background: #000;
+				}
+			}
+		}
+	}
+}

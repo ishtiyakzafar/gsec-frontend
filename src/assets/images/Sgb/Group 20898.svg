@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="116" viewBox="0 0 194 116">
+    <defs>
+        <linearGradient id="linear-gradient" x1="1.096" y1="1.386" x2="-.223" y2="-.601" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#853f02"/>
+            <stop offset=".477" stop-color="#d08f16"/>
+            <stop offset="1" stop-color="#f8e150"/>
+        </linearGradient>
+        <style>
+            .cls-4{fill:#ffce54}.cls-5{fill:#e8aa3d}.cls-6{fill:#f6bb42}.cls-7{fill:#8f4a05;font-size:11px;font-family:Poppins-SemiBold,Poppins;font-weight:600;letter-spacing:.004em}
+        </style>
+    </defs>
+    <g id="Group_20898" data-name="Group 20898" transform="translate(-20899 -7165)">
+        <g id="Group_20876" data-name="Group 20876" transform="translate(7 12)">
+            <path id="Intersection_11" data-name="Intersection 11" d="M4767.145-6439.682a3.048 3.048 0 0 1 3.219-3.034 3.028 3.028 0 0 1 3.146 3.034 3.028 3.028 0 0 1-3.146 3.034 3.048 3.048 0 0 1-3.219-3.034zm40.648.039a2.742 2.742 0 0 1 2.887-2.964 2.738 2.738 0 0 1 2.87 2.964 2.754 2.754 0 0 1-2.87 2.983 2.758 2.758 0 0 1-2.888-2.983zm1.672 0c0 1.178.475 1.653 1.2 1.653s1.2-.475 1.2-1.653-.475-1.652-1.2-1.652-1.201.475-1.201 1.652zm-7.523 2.736 7.581-13.225h2.127l-7.58 13.225zm-23.733-7.623h5.033a4.219 4.219 0 0 0 4.477 3.256c3.034 0 4.4-2.147 4.4-5 0-3.034-1.518-4.7-4.44-4.7a4.033 4.033 0 0 0-4.07 2.85h-4.958v-15.835h16.724v4.55h-11.987v6.328a7.035 7.035 0 0 1 5.29-2.183c6.291 0 8.436 4.735 8.436 8.917 0 5.513-3.182 9.435-9.324 9.435-5.809.006-9.138-3.213-9.582-7.617zm-32.412 7.251v-3.847c6.1-5.181 12.506-9.954 12.506-14.912 0-2.4-1.072-4.033-3.625-4.033-2.479 0-3.849 1.776-3.885 4.625h-5.033c.185-6.178 4.145-9.028 8.992-9.028 5.809 0 8.732 3.442 8.732 8.14 0 6.253-6.032 11.138-10.325 14.764h10.915v4.291zm54.263-10.136a2.753 2.753 0 0 1 2.889-2.965 2.753 2.753 0 0 1 2.887 2.965 2.757 2.757 0 0 1-2.887 2.981 2.757 2.757 0 0 1-2.89-2.979zm1.692 0c0 1.178.455 1.672 1.2 1.672.72 0 1.2-.495 1.2-1.672s-.475-1.654-1.2-1.654c-.746.002-1.201.477-1.201 1.656z" transform="translate(16262.241 13654.131)" style="fill:url(#linear-gradient)"/>
+            <path id="Intersection_12" data-name="Intersection 12" d="M4774.73-6447.345v-5.175h-5.05v-2.4h5.05v-5.175h2.65v5.175h5.048v2.4h-5.048v5.175z" transform="translate(16211.261 13657.133)" style="fill:#c38113"/>
+            <g id="Group_20799" data-name="Group 20799" transform="translate(41 -7.807)">
+                <g id="Group_20800" data-name="Group 20800" transform="translate(20857 7199.109)">
+                    <path id="Path_12700" data-name="Path 12700" class="cls-4" d="m20956.023 7253.125 2.959 12.112 33.961-15.23-4.8-10.5z" transform="translate(-20942.889 -7237.539)"/>
+                    <path id="Path_12701" data-name="Path 12701" class="cls-5" d="m20916.264 7278.637-4.574 9.337 16.092 4.784-2.531-12.225z" transform="translate(-20911.689 -7265.074)"/>
+                    <path id="Path_12702" data-name="Path 12702" class="cls-6" d="m20967.453 7234.83-8.789-1.971-32.037 13.563 9.348 2.107z" transform="translate(-20922.201 -7232.859)"/>
+                </g>
+                <g id="Group_20799-2" data-name="Group 20799" transform="translate(20873.154 7203.801)">
+                    <path id="Path_12700-2" data-name="Path 12700" class="cls-4" d="m20956.023 7253.125 2.959 12.112 33.961-15.23-4.8-10.5z" transform="translate(-20942.889 -7237.539)"/>
+                    <path id="Path_12701-2" data-name="Path 12701" class="cls-5" d="m20916.264 7278.637-4.574 9.337 16.092 4.784-2.531-12.225z" transform="translate(-20911.689 -7265.074)"/>
+                    <path id="Path_12702-2" data-name="Path 12702" class="cls-6" d="m20967.453 7234.83-8.789-1.971-32.037 13.563 9.348 2.107z" transform="translate(-20922.201 -7232.859)"/>
+                </g>
+                <g id="Group_20801" data-name="Group 20801" transform="translate(20866.635 7191.257)">
+                    <path id="Path_12700-3" data-name="Path 12700" class="cls-4" d="m20956.023 7253.125 2.959 12.112 33.961-15.23-4.8-10.5z" transform="translate(-20942.889 -7237.539)"/>
+                    <path id="Path_12701-3" data-name="Path 12701" class="cls-5" d="m20916.264 7278.637-4.574 9.337 16.092 4.784-2.531-12.225z" transform="translate(-20911.689 -7265.074)"/>
+                    <path id="Path_12702-3" data-name="Path 12702" class="cls-6" d="m20967.453 7234.83-8.789-1.971-32.037 13.563 9.348 2.107z" transform="translate(-20922.201 -7232.859)"/>
+                </g>
+            </g>
+            <text id="Extra_Returns" data-name="Extra Returns" class="cls-7" transform="translate(21008 7246)"><tspan x="0" y="0">Extra Returns</tspan></text>
+            <text id="Price_of_Gold" data-name="Price of Gold" class="cls-7" transform="translate(20897 7246)"><tspan x="0" y="0">Price of Gold</tspan></text>
+        </g>
+    </g>
+</svg>

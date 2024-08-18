@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ${CONFIG_MAP_NAME}
+  namespace: ${NAMESPACE}
+data:
+  REACT_APP_API_URL: "http://oneup-cms-backend-service.oneup-preprod.svc.cluster.local:3005"
+  REACT_APP_API_URL_LOCAL: "http://oneup-cms-backend-service.oneup-preprod.svc.cluster.local:3005"

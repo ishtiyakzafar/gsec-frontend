@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+    <defs>
+        <filter id="a" x="4" y="4" width="38" height="38" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="b" x="0" y="0" width="46" height="46" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="6" result="blur-2"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="c" x1=".855" y1="1.161" x2="-.099" y2=".15" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#853f02"/>
+            <stop offset=".477" stop-color="#d08f16"/>
+            <stop offset="1" stop-color="#f8e150"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 13934">
+        <g style="filter:url(#a)">
+            <rect data-name="Rectangle 5013" width="20" height="20" rx="10" transform="translate(13 10)" style="fill:#fff"/>
+        </g>
+        <g style="filter:url(#b)">
+            <rect data-name="Rectangle 5014" width="10" height="10" rx="5" transform="translate(18 15)" style="fill:url(#c)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0" cy="0" r="1.338" gradientTransform="rotate(48.37)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient" x1=".809" y1=".094" x2=".06" y2=".666" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f60"/>
+            <stop offset="1" stop-color="#ffb300"/>
+        </linearGradient>
+        <style>
+            .cls-3{fill:url(#linear-gradient)}.cls-5{fill:none;stroke:#372f85;stroke-linecap:round;stroke-width:2px;opacity:.3}
+        </style>
+    </defs>
+    <g id="Group_18662" data-name="Group 18662" transform="translate(-95 -316)" style="opacity:.5;mix-blend-mode:luminosity;isolation:isolate">
+        <g id="Group_18660" data-name="Group 18660" transform="translate(-4384.513 20529.668)">
+            <path id="Path_12481" data-name="Path 12481" class="cls-3" d="M4556.948-19996.779a82.488 82.488 0 0 1 6.592 13.664 53.75 53.75 0 0 0 3.7 8.646s4.443-1.73 4.4-2.268c-.075-.965-4.4-29.893-4.4-29.893z" transform="translate(-57.147 -139.128)"/>
+            <path id="Rectangle_5445" data-name="Rectangle 5445" class="cls-3" d="M5.282 0h3.962v10.565H5.282A5.282 5.282 0 0 1 0 5.282 5.282 5.282 0 0 1 5.282 0z" transform="rotate(-30 -35337.394 -18441.652)"/>
+            <path id="Path_12480" data-name="Path 12480" d="M4543.76-20148.424s-12.115 21.707-21.63 25.713c-2.188 1.053 5.3 13.654 6.057 13.494s11.987-6.873 34.1-7.406c5.591-.986 10.5-12.246-3.481-22.08s-15.046-9.721-15.046-9.721z" transform="translate(-28.574 -24.083)" style="fill:url(#radial-gradient)"/>
+            <path id="Path_12479" data-name="Path 12479" class="cls-3" d="M4627.014-20171.111s17.918 8.063 19.733 32.139c.76 6.611 6.963 4.127 7.258 1.473s.691-24.482-19.881-38.363c-8.7-5.41-9.832.486-9.151 1.848a16.732 16.732 0 0 0 2.041 2.903z" transform="translate(-112.205)"/>
+        </g>
+        <path id="Path_12482" data-name="Path 12482" class="cls-5" d="M5083.559-20203c14.149-16.971 13.872-26.5 13.872-26.5" transform="translate(-4931 20559)"/>
+        <path id="Path_12484" data-name="Path 12484" class="cls-5" d="M5097.432-20229.5c-14.149 16.971-13.872 26.5-13.872 26.5" transform="rotate(47 -21036.026 -15570.892)"/>
+        <path id="Path_12483" data-name="Path 12483" class="cls-5" d="m5090.5-20197.176 13.409-8.924" transform="translate(-4931 20559)"/>
+    </g>
+</svg>

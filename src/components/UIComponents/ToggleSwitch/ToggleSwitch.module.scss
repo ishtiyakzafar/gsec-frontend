@@ -1,0 +1,58 @@
+.toggle {
+	// width: 280px;
+	height: 48px;
+	border-radius: 24px;
+	background-color: #30303015 !important;
+	position: relative !important;
+}
+
+.text {
+	width: 100% !important;
+	position: relative !important;
+	z-index: 4 !important;
+	height: 100% !important;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: space-around !important;
+	align-items: center !important;
+
+	span {
+		font-family: Poppins !important;
+		font-size: 16px !important;
+		font-weight: normal !important;
+		font-stretch: normal !important;
+		font-style: normal !important;
+		line-height: normal !important;
+		letter-spacing: normal !important;
+	}
+
+	.white {
+		color: #fff !important;
+		opacity: 1 !important;
+	}
+
+	.black {
+		opacity: 0.6 !important;
+		color: #303030 !important;
+	}
+}
+.text:hover {
+	cursor: pointer;
+}
+
+.toggler {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0%;
+	border-radius: 25px;
+	background: linear-gradient(135deg, #21a6f3, #214cf3);
+	transition: 0.2s ease;
+}
+
+.active {
+	left: 50%;
+	transition: 0.2s ease;
+}

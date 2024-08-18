@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="116" viewBox="0 0 194 116">
+    <defs>
+        <linearGradient id="linear-gradient" x1="-.546" y1="-.242" x2="1.345" y2="1.135" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3" stop-opacity=".122"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-.546" y1="-.242" x2="1.345" y2="1.135" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </linearGradient>
+        <style>
+            .cls-5{fill:#2e276f}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_20899" data-name="Group 20899" transform="translate(-650 -421)">
+        <g id="Group_20877" data-name="Group 20877" transform="translate(-400 -241)">
+            <path id="Union_46" data-name="Union 46" d="M.084 60.734s.79-8.3 4.367-13.692 9.86-9.742 11.717-14.226S12.354 23.728 5.616 17.8.084.018.084.018l21.085 1.021L42.633 0s1.206 11.855-5.533 17.781S24.693 28.312 26.551 32.8s8.14 8.831 11.716 14.225 4.367 13.693 4.367 13.693H21.7v.018z" transform="translate(1127.982 689.284)" style="opacity:.09;fill:url(#linear-gradient)"/>
+            <g id="Union_48" data-name="Union 48" style="opacity:.18;fill:none">
+                <path class="cls-6" d="M.084 60.734s.79-8.3 4.367-13.692 9.86-9.742 11.717-14.226S12.354 23.728 5.616 17.8.084.018.084.018l21.085 1.021L42.633 0s1.206 11.855-5.533 17.781S24.693 28.312 26.551 32.8s8.14 8.831 11.716 14.225 4.367 13.693 4.367 13.693H21.7v.018z" transform="translate(1127.982 689.284)"/>
+                <path d="M20.7 59.734v-.018h20.798c-.346-2.383-1.415-8.144-4.065-12.14-1.556-2.348-3.663-4.511-5.7-6.604-2.577-2.646-5.01-5.146-6.106-7.792-2.027-4.893 3.14-9.422 9.682-15.156l1.132-.994c1.419-1.247 2.576-2.895 3.438-4.898.704-1.634 1.215-3.505 1.519-5.562.345-2.334.341-4.386.297-5.523L21.17 2.04 1.022 1.065a30.756 30.756 0 0 0 .298 5.524c.304 2.057.815 3.928 1.519 5.562.862 2.003 2.019 3.651 3.438 4.9l1.131.992c6.542 5.733 11.71 10.262 9.684 15.156-1.096 2.645-3.529 5.144-6.105 7.79-2.038 2.093-4.146 4.258-5.702 6.607-2.646 3.989-3.718 9.754-4.065 12.138H20.7m1 1H.084s.79-8.297 4.367-13.691c3.576-5.395 9.86-9.741 11.717-14.227 1.856-4.485-3.814-9.088-10.552-15.015C-1.122 11.873.084.018.084.018L21.169 1.04 42.633 0s1.206 11.855-5.531 17.781C30.364 23.71 24.693 28.312 26.55 32.798c1.857 4.485 8.14 8.831 11.716 14.225 3.576 5.394 4.366 13.693 4.366 13.693H21.7v.018z" style="fill:#2e276f;stroke:none" transform="translate(1127.982 689.284)"/>
+            </g>
+            <path id="Union_47" data-name="Union 47" d="M16.242 46.729H.424s-1.4-1.429.9-3.741 14.076-6.4 14.147-8.1.513-17.665-.738-22.879S1.324 0 1.324 0h30.865S20.03 6.793 18.78 12.007s-.807 21.172-.737 22.879 12.117 6.033 14.146 8.1.9 3.741.9 3.741z" transform="translate(1132.33 702.874)" style="fill:url(#linear-gradient-2)"/>
+            <rect id="Rectangle_5606" data-name="Rectangle 5606" class="cls-5" width="55" height="7" rx="3.5" transform="translate(1122 684)"/>
+            <rect id="Rectangle_5607" data-name="Rectangle 5607" class="cls-5" width="55" height="7" rx="3.5" transform="translate(1122 749)"/>
+        </g>
+    </g>
+</svg>

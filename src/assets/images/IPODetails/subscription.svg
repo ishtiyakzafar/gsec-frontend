@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="242" height="258">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_5110" data-name="Rectangle 5110" width="242" height="258" rx="24" transform="translate(374 360)" style="stroke:#fff;stroke-width:2px;fill:#fff"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:#2186f3;opacity:.2}
+        </style>
+    </defs>
+    <g id="subscription" transform="translate(-374 -360)" style="clip-path:url(#clip-path)">
+        <g id="Group_15450" data-name="Group 15450">
+            <circle id="Ellipse_1715" data-name="Ellipse 1715" class="cls-3" cx="220" cy="220" r="220" transform="translate(275 457)"/>
+            <circle id="Ellipse_1716" data-name="Ellipse 1716" class="cls-3" cx="134" cy="134" r="134" transform="translate(361 517)"/>
+            <circle id="Ellipse_1717" data-name="Ellipse 1717" class="cls-3" cx="118" cy="118" r="118" transform="translate(377 543)"/>
+            <circle id="Ellipse_1718" data-name="Ellipse 1718" class="cls-3" cx="96" cy="96" r="96" transform="translate(399 565)"/>
+            <ellipse id="Ellipse_1719" data-name="Ellipse 1719" cx="66" cy="67" rx="66" ry="67" transform="translate(428 584)" style="opacity:.6;fill:#2186f3"/>
+        </g>
+        <text id="_1x" data-name="1x" transform="translate(503 609)" style="letter-spacing:.004em;font-size:18px;font-family:Poppins-SemiBold,Poppins;font-weight:600;fill:#fff"><tspan x="-16.308" y="0">1x</tspan></text>
+        <g id="Group_15294" data-name="Group 15294" transform="translate(0 24)">
+            <text id="_5x" data-name="5x" transform="translate(509 467)" style="font-size:24px;font-family:Poppins-Medium,Poppins;font-weight:500;fill:#303030;letter-spacing:.004em"><tspan x="-27.408" y="0">5x</tspan></text>
+            <text id="Subscriptions" transform="translate(448 484)" style="font-size:14px;font-family:Poppins-Regular,Poppins;fill:#303030;letter-spacing:.004em"><tspan x="0" y="0">Subscriptions</tspan></text>
+        </g>
+        <g id="Group_15306" data-name="Group 15306" transform="translate(7 -7.998)">
+            <path id="Polygon_29" data-name="Polygon 29" d="m8 0 8 12H0z" transform="translate(574.002 511.543)" style="opacity:.4;fill:#05d54a"/>
+            <path id="Polygon_27" data-name="Polygon 27" d="m8 0 8 12H0z" transform="translate(574.002 488.271)" style="fill:#05d54a;opacity:.6"/>
+            <path id="Polygon_25" data-name="Polygon 25" d="m8 0 8 12H0z" transform="translate(574.002 464.998)" style="opacity:.8;fill:#05d54a"/>
+        </g>
+    </g>
+</svg>

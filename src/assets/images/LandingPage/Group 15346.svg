@@ -1,0 +1,10 @@
+<svg data-name="Group 15346" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+    <defs>
+        <radialGradient id="a" cx=".427" cy=".876" r=".856" gradientTransform="rotate(-70.97 .427 .876)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" stop-opacity=".231"/>
+            <stop offset="1" stop-color="#fff"/>
+        </radialGradient>
+    </defs>
+    <circle data-name="Ellipse 1697" cx="14" cy="14" r="14" style="opacity:.36;fill:url(#a)"/>
+    <path data-name="Icon ionic-ios-remove" d="M20.927 16.875H9.759a.933.933 0 0 0-.794 1.025 1.182 1.182 0 0 0 .233.722.717.717 0 0 0 .561.3h11.168a.933.933 0 0 0 .794-1.022.933.933 0 0 0-.794-1.025z" transform="translate(-1.054 -3.96)" style="fill:#fff"/>
+</svg>

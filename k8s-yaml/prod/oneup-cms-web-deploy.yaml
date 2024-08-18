@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ${APP_LABEL}-deploy
+  namespace: ${NAMESPACE}
+spec:
+  replicas: ${REPLICA_COUNT}
+  selector:
+    matchLabels:
+      app: ${APP_LABEL}
+  template:
+    metadata:
+      labels:
+        app: ${APP_LABEL}
+    spec:
+      containers:
+        - name: ${APP_LABEL}
+          image: ${IMAGE_NAME}:${IMAGE_TAG}
+          imagePullPolicy: Always
+          ports:
+            - containerPort: ${CONTAINER_PORT}
+          envFrom:
+            - configMapRef:
+                name: ${CONFIG_MAP_NAME}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="242" height="258">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0" cy="0" r="1.338" gradientTransform="rotate(48.37)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </radialGradient>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_5111" data-name="Rectangle 5111" width="242" height="258" rx="24" transform="translate(628 360)" style="stroke:#fff;stroke-width:2px;fill:#fff"/>
+        </clipPath>
+        <style>
+            .cls-8{fill:none;stroke:#e23744;stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="Mask_Group_76" data-name="Mask Group 76" transform="translate(-628 -360)" style="clip-path:url(#clip-path)">
+        <g id="Group_15299" data-name="Group 15299" transform="translate(0 33)">
+            <path id="Path_12166" data-name="Path 12166" d="m627.72 572.763 26.414-22.963h8.839l6.807-10.262s15.543-11.378 21.639-16.152 8.806-4.975 12.191-8.839c11.581-18.286 24.382-37.283 24.382-37.283s5.423.233 5.486 0c6.705-4.064 20.928-12.9 20.928-12.9l8.838 6.807 4.064 15.543 23.669 18.386s.171 9.376 0 9.447c6.1 8.128 15.645 24.991 15.645 24.991s10.819 10.329 10.769 10.262c-.16-.467 25.093 16.863 25.093 16.863v6.1L849.9 587.7l38.066 34.3-296.958 4.61 36.713-53.846" style="fill:url(#radial-gradient)"/>
+            <path id="Intersection_2" data-name="Intersection 2" d="m-599.139 11169.976 31.756-46.579 26.416-22.957h8.839l6.805-10.262s15.543-11.38 21.639-16.154 8.805-4.974 12.191-8.839c11.582-18.284 24.382-37.283 24.382-37.283s5.422.233 5.487 0c6.386-3.872 19.594-12.073 20.832-12.842l-11.932 29.412 11.955 22.351h16.177l-28.133 12.5-30.789 40.635 8.831 21.414h-22.351l-14.065 20.317h-21.414l-10.393 8.284z" transform="translate(1195.102 -10550.635)" style="opacity:.2;fill:#fff"/>
+            <g id="Group_15300" data-name="Group 15300" transform="translate(0 -13)">
+                <path id="Path_12171" data-name="Path 12171" d="M1412.231-10577.31v39.838" transform="translate(-658.231 11016)" style="stroke:rgba(48,48,48,.62);fill:none"/>
+                <path id="Polygon_31" data-name="Polygon 31" d="m7 0 7 20H0z" transform="rotate(90 167.5 606.5)" style="fill:#f16e21"/>
+                <g id="Group_15300-2" data-name="Group 15300" style="opacity:.3">
+                    <path id="Line_146" data-name="Line 146" class="cls-8" transform="translate(762 419)" d="M0 0v6"/>
+                    <path id="Line_147" data-name="Line 147" class="cls-8" transform="rotate(45 -124.777 1155.316)" d="M0 0v6"/>
+                    <path id="Line_148" data-name="Line 148" class="cls-8" transform="rotate(90 171.5 616.5)" d="M0 0v6"/>
+                    <path id="Line_149" data-name="Line 149" class="cls-8" transform="rotate(-45 886.774 -684.317)" d="M0 0v6"/>
+                    <path id="Line_150" data-name="Line 150" class="cls-8" transform="rotate(-90 590.499 -145.5)" d="M0 0v6"/>
+                </g>
+            </g>
+            <path id="Path_12172" data-name="Path 12172" d="M5150.478-4000.336s-2.465-8.837-11.241-3.607-4.81 8.477-12.8 6.853a16.449 16.449 0 0 0-13.225 2.765s-4.809 6.011 0 9.618 4.521 2.941 10.232 3.542 6.017 2.89 12.776 2.89 6.895-1.282 14.262-2.89 8.635 1.333 17.456-1.957 16.483-5.006 17.83-11.2-6.522-11.181-12.443-13.585-11.241 3.967-11.241 3.967a12.7 12.7 0 0 0-6.206 0 14.643 14.643 0 0 0-5.4 3.604z" transform="rotate(9 -25456.034 -29302.954)" style="opacity:.14;fill:#31a8e4"/>
+            <path id="Path_12173" data-name="Path 12173" d="M5150.478-4000.336s-2.465-8.837-11.241-3.607-4.81 8.477-12.8 6.853a16.449 16.449 0 0 0-13.225 2.765s-4.809 6.011 0 9.618 4.521 2.941 10.232 3.542 6.017 2.89 12.776 2.89 6.895-1.282 14.262-2.89 8.635 1.333 17.456-1.957 16.483-5.006 17.83-11.2-6.522-11.181-12.443-13.585-11.241 3.967-11.241 3.967a12.7 12.7 0 0 0-6.206 0 14.643 14.643 0 0 0-5.4 3.604z" transform="rotate(9 -25747.316 -30092.421)" style="opacity:.1;fill:#31a8e4"/>
+        </g>
+    </g>
+</svg>

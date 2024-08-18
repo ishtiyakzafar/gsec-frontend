@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136" height="24" viewBox="0 0 136 24">
+    <defs>
+        <radialGradient id="a" cx="0" cy="0" r="1.338" gradientTransform="rotate(48.37)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </radialGradient>
+        <linearGradient id="c" x1="-.076" y1="-.377" x2="1" y2="1" xlink:href="#a"/>
+        <clipPath id="b">
+            <path data-name="Union 42" d="m123.538 19.707-7.7 4.293 1.654-8.743-6.413-6.09 8.721-1.11L123.538 0l3.739 8.057L136 9.167l-6.412 6.09L131.242 24zm-27.769 0L88.068 24l1.654-8.743-6.412-6.09 8.723-1.109L95.769 0l3.739 8.057 8.723 1.109-6.412 6.09L103.47 24zm-27.769 0L60.3 24l1.651-8.743-6.41-6.09 8.72-1.109L68 0l3.739 8.057 8.723 1.109-6.413 6.09L75.7 24zm-27.769 0L32.53 24l1.651-8.743-6.412-6.09 8.723-1.109L40.231 0l3.739 8.057 8.723 1.109-6.412 6.09L47.932 24zm-27.769 0L4.761 24l1.652-8.743L0 9.167l8.723-1.11L12.462 0 16.2 8.057l8.723 1.109-6.413 6.09L20.163 24z" transform="translate(652 455)" style="fill:url(#a)"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 18377">
+        <g data-name="Mask Group 92" transform="translate(-652 -455)" style="clip-path:url(#b)">
+            <path data-name="Union 41" d="m123.538 19.707-7.7 4.293 1.654-8.743-6.413-6.09 8.721-1.11L123.538 0l3.739 8.057L136 9.167l-6.412 6.09L131.242 24zm-27.769 0L88.068 24l1.654-8.743-6.412-6.09 8.723-1.109L95.769 0l3.739 8.057 8.723 1.109-6.412 6.09L103.47 24zm-27.769 0L60.3 24l1.651-8.743-6.41-6.09 8.72-1.109L68 0l3.739 8.057 8.723 1.109-6.413 6.09L75.7 24zm-27.769 0L32.53 24l1.651-8.743-6.412-6.09 8.723-1.109L40.231 0l3.739 8.057 8.723 1.109-6.412 6.09L47.932 24zm-27.769 0L4.761 24l1.652-8.743L0 9.167l8.723-1.11L12.462 0 16.2 8.057l8.723 1.109-6.413 6.09L20.163 24z" transform="translate(652 455)" style="opacity:.36;fill:url(#a)"/>
+            <rect data-name="Rectangle 5356" width="124" height="37" rx="2" transform="translate(652 452)" style="fill:url(#c)"/>
+        </g>
+    </g>
+</svg>

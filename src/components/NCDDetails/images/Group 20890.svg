@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195.741" height="212.01" viewBox="0 0 195.741 212.01">
+    <defs>
+        <radialGradient id="radial-gradient" cx=".336" cy=".743" r=".806" gradientTransform="scale(1 -1) rotate(47.07 2.041 0)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f3c821"/>
+            <stop offset="1" stop-color="#f36f21"/>
+        </radialGradient>
+        <radialGradient id="radial-gradient-2" cx=".336" cy=".743" r=".806" gradientTransform="scale(1 -1) rotate(47.07 2.041 0)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset=".446" stop-color="#ebc240"/>
+            <stop offset="1" stop-color="#db6e25"/>
+        </radialGradient>
+        <style>
+            .cls-3{fill:#fd8e4e}.cls-4{fill:#ffc9b2}.cls-5{fill:#ff5d00}
+        </style>
+    </defs>
+    <g id="Group_20890" data-name="Group 20890" transform="rotate(62.03 42.12 128.505)">
+        <circle id="Ellipse_244" data-name="Ellipse 244" cx="32.5" cy="32.5" r="32.5" transform="translate(0 4.001)" style="fill:url(#radial-gradient)"/>
+        <circle id="Ellipse_245" data-name="Ellipse 245" cx="49.5" cy="49.5" r="49.5" transform="translate(15 37.001)" style="fill:url(#radial-gradient-2)"/>
+        <g id="Group_13515" data-name="Group 13515" transform="translate(18.171)">
+            <g id="Group_13481" data-name="Group 13481" transform="translate(22.829 144)">
+                <circle id="Ellipse_228" data-name="Ellipse 228" class="cls-3" cx="6.5" cy="6.5" r="6.5"/>
+                <circle id="Ellipse_227" data-name="Ellipse 227" class="cls-4" cx="3" cy="3" r="3" transform="translate(3 3)"/>
+            </g>
+            <g id="Group_13503" data-name="Group 13503" transform="translate(22.829 81)">
+                <circle id="Ellipse_228-2" data-name="Ellipse 228" class="cls-3" cx="2.5" cy="2.5" r="2.5"/>
+                <circle id="Ellipse_233" data-name="Ellipse 233" class="cls-3" cx="2.5" cy="2.5" r="2.5"/>
+                <circle id="Ellipse_227-2" data-name="Ellipse 227" class="cls-4" cx="1.5" cy="1.5" r="1.5" transform="translate(1 1)"/>
+            </g>
+            <g id="Group_13484" data-name="Group 13484" transform="translate(32.829 45)">
+                <circle id="Ellipse_228-3" data-name="Ellipse 228" class="cls-5" cx="4" cy="4" r="4"/>
+                <circle id="Ellipse_227-3" data-name="Ellipse 227" class="cls-4" cx="2" cy="2" r="2" transform="translate(2 2)"/>
+            </g>
+            <g id="Group_13485" data-name="Group 13485" transform="translate(16.828 12)">
+                <circle id="Ellipse_228-4" data-name="Ellipse 228" class="cls-5" cx="2" cy="2" r="2"/>
+                <circle id="Ellipse_227-4" data-name="Ellipse 227" class="cls-4" cx="1" cy="1" r="1" transform="translate(0 1)"/>
+            </g>
+            <g id="Group_13495" data-name="Group 13495" transform="translate(21.829 38)">
+                <circle id="Ellipse_228-5" data-name="Ellipse 228" class="cls-5" cx="3.5" cy="3.5" r="3.5"/>
+                <circle id="Ellipse_227-5" data-name="Ellipse 227" class="cls-4" cx="2" cy="2" r="2" transform="translate(1 2)"/>
+            </g>
+            <g id="Group_13496" data-name="Group 13496" transform="translate(7.828 31)">
+                <circle id="Ellipse_228-6" data-name="Ellipse 228" class="cls-5" cx="3.5" cy="3.5" r="3.5"/>
+                <circle id="Ellipse_227-6" data-name="Ellipse 227" class="cls-4" cx="2" cy="2" r="2" transform="translate(1 2)"/>
+            </g>
+            <g id="Group_13497" data-name="Group 13497" transform="translate(35.829 63)">
+                <circle id="Ellipse_228-7" data-name="Ellipse 228" class="cls-5" cx="3.5" cy="3.5" r="3.5"/>
+                <circle id="Ellipse_227-7" data-name="Ellipse 227" class="cls-4" cx="2" cy="2" r="2" transform="translate(1 2)"/>
+            </g>
+            <g id="Group_13498" data-name="Group 13498" transform="translate(24.829 31)">
+                <circle id="Ellipse_228-8" data-name="Ellipse 228" class="cls-5" cx="3.5" cy="3.5" r="3.5"/>
+                <circle id="Ellipse_227-8" data-name="Ellipse 227" class="cls-4" cx="2" cy="2" r="2" transform="translate(1 2)"/>
+            </g>
+            <g id="Group_13500" data-name="Group 13500" transform="translate(18.828 28)">
+                <circle id="Ellipse_228-9" data-name="Ellipse 228" class="cls-5" cx="2.5" cy="2.5" r="2.5"/>
+                <circle id="Ellipse_227-9" data-name="Ellipse 227" class="cls-4" cx="1.5" cy="1.5" r="1.5" transform="translate(1 1)"/>
+            </g>
+            <g id="Group_13501" data-name="Group 13501" transform="translate(12.828)">
+                <circle id="Ellipse_228-10" data-name="Ellipse 228" class="cls-5" cx="1.5" cy="1.5" r="1.5"/>
+                <circle id="Ellipse_227-10" data-name="Ellipse 227" class="cls-4" cx="1" cy="1" r="1" transform="translate(0 1)"/>
+            </g>
+            <g id="Group_13499" data-name="Group 13499" transform="translate(12.829 53)">
+                <circle id="Ellipse_228-11" data-name="Ellipse 228" class="cls-5" cx="3.5" cy="3.5" r="3.5"/>
+                <circle id="Ellipse_227-11" data-name="Ellipse 227" class="cls-4" cx="2" cy="2" r="2" transform="translate(1 2)"/>
+            </g>
+            <g id="Group_13520" data-name="Group 13520" transform="translate(71.829 78)">
+                <circle id="Ellipse_228-12" data-name="Ellipse 228" cx="3" cy="3" r="3" style="fill:#4eb7fd"/>
+                <circle id="Ellipse_227-12" data-name="Ellipse 227" cx="1.5" cy="1.5" r="1.5" transform="translate(1 1)" style="fill:#b2e8ff"/>
+            </g>
+            <g id="Group_13678" data-name="Group 13678" transform="translate(0 106.671)">
+                <circle id="Ellipse_228-13" data-name="Ellipse 228" class="cls-5" cx="4.828" cy="4.828" r="4.828"/>
+                <circle id="Ellipse_227-13" data-name="Ellipse 227" class="cls-4" cx="2.6" cy="2.6" r="2.6" transform="translate(1.486 2.971)"/>
+            </g>
+        </g>
+    </g>
+</svg>

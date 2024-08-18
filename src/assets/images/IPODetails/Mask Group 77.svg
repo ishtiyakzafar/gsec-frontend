@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="242" height="258">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0" cy="0" r="1.338" gradientTransform="rotate(48.37)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#21f3f3"/>
+            <stop offset="1" stop-color="#214cf3"/>
+        </radialGradient>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_5112" data-name="Rectangle 5112" width="242" height="258" rx="24" transform="translate(628 629)" style="fill:#fff;stroke:#fff;stroke-width:2px"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:url(#radial-gradient)}
+        </style>
+    </defs>
+    <g id="Mask_Group_77" data-name="Mask Group 77" transform="translate(-628 -629)" style="clip-path:url(#clip-path)">
+        <circle id="Ellipse_1721" data-name="Ellipse 1721" class="cls-3" cx="71.5" cy="71.5" r="71.5" transform="translate(586 704)"/>
+        <circle id="Ellipse_1722" data-name="Ellipse 1722" class="cls-3" cx="38.5" cy="38.5" r="38.5" transform="translate(786 734)"/>
+        <g id="Group_15307" data-name="Group 15307" transform="rotate(90 529.809 722.73)">
+            <path id="Polygon_29" data-name="Polygon 29" d="m7 0 7 10H0z" transform="translate(573.079 505.539)" style="opacity:.2;fill:#2171f3"/>
+            <path id="Polygon_27" data-name="Polygon 27" d="m7 0 7 10H0z" transform="translate(573.079 490.539)" style="opacity:.6;fill:#2171f3"/>
+            <path id="Polygon_25" data-name="Polygon 25" d="m7 0 7 10H0z" transform="translate(573.079 475.539)" style="opacity:.8;fill:#2171f3"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ${APP_LABEL}-service
+  namespace: ${NAMESPACE}
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+spec:
+  selector:
+    app: ${APP_LABEL}
+  ports:
+    - protocol: TCP
+      port: ${CONTAINER_PORT}
+      targetPort: ${CONTAINER_PORT}
+  type: LoadBalancer

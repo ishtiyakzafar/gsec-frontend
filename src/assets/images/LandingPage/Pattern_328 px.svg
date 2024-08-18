@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="278" height="278">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Subtraction_41" data-name="Subtraction 41" class="cls-1" d="M127.264 193.87v-4.327a95.048 95.048 0 1 0-57.952-.57v4.356a98.75 98.75 0 0 1-8.758-3.232 98.995 98.995 0 1 1 66.712 3.773z"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Subtraction_41-2" data-name="Subtraction 41" class="cls-1" d="M85.55 130.469v-2.914a63.824 63.824 0 1 0-38.982-.348v2.93a66.543 66.543 0 0 1-5.889-2.169A66.6 66.6 0 0 1 66.6 0a66.575 66.575 0 0 1 47.088 113.691 66.314 66.314 0 0 1-21.168 14.278 67.021 67.021 0 0 1-6.973 2.5z"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="Subtraction_41-3" data-name="Subtraction 41" class="cls-1" d="M56.024 85.441v-1.909A41.8 41.8 0 1 0 30.5 83.3v1.919c-1.3-.409-2.6-.887-3.857-1.42A43.616 43.616 0 0 1 43.617 0a43.6 43.6 0 0 1 30.837 74.453A43.427 43.427 0 0 1 60.591 83.8a43.89 43.89 0 0 1-4.567 1.636z"/>
+        </clipPath>
+        <linearGradient id="linear-gradient" x1=".5" x2=".824" y2=".088" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f36f21"/>
+            <stop offset="1" stop-color="#f36f21" stop-opacity="0"/>
+        </linearGradient>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}.cls-5{fill:#f36f21}
+        </style>
+    </defs>
+    <g id="Pattern_328_px" data-name="Pattern_328 px" transform="translate(-979.753 -44.85)">
+        <g id="Group_15314" data-name="Group 15314" transform="translate(979.822 44.85)">
+            <g id="Group_13569" data-name="Group 13569" transform="rotate(142 112.08 125.866)" style="opacity:.6">
+                <g id="Group_13571" data-name="Group 13571">
+                    <g id="Mask_Group_61" data-name="Mask Group 61" style="clip-path:url(#clip-path)">
+                        <path id="Subtraction_36" data-name="Subtraction 36" class="cls-1" d="M99.1 197.9A98.983 98.983 0 0 1 60.39 7.742 99.3 99.3 0 0 1 190.2 60.514 98.77 98.77 0 0 1 99.1 197.9zM98.926 4.123a94.827 94.827 0 1 0 94.968 94.91 94.762 94.762 0 0 0-94.968-94.91z" transform="translate(.002 .002)"/>
+                    </g>
+                </g>
+                <path id="Path_12174" data-name="Path 12174" class="cls-5" d="M6.416 0A6.421 6.421 0 1 1 0 6.416 6.435 6.435 0 0 1 6.416 0z" transform="translate(62.428 185.134)"/>
+            </g>
+            <g id="Group_13642" data-name="Group 13642" transform="translate(75.161 65.792)">
+                <g id="Group_13640" data-name="Group 13640" transform="matrix(.105 -.995 .995 .105 0 132.473)" style="opacity:.3">
+                    <g id="Group_13571-2" data-name="Group 13571">
+                        <g id="Mask_Group_61-2" data-name="Mask Group 61" style="clip-path:url(#clip-path-2)">
+                            <path id="Subtraction_36-2" data-name="Subtraction 36" class="cls-1" d="M66.6 133.2A66.617 66.617 0 0 1 40.676 5.234a66.617 66.617 0 0 1 51.847 122.731A66.183 66.183 0 0 1 66.6 133.2zm0-130.424A63.825 63.825 0 1 0 130.424 66.6 63.9 63.9 0 0 0 66.6 2.775z" transform="translate(.002 .002)"/>
+                        </g>
+                    </g>
+                    <circle id="Ellipse_1685" data-name="Ellipse 1685" class="cls-5" cx="4.332" cy="4.332" r="4.332" transform="translate(42.235 124.537)"/>
+                </g>
+                <g id="Group_13641" data-name="Group 13641" transform="rotate(69 40.387 77.518)" style="opacity:.1">
+                    <g id="Group_13571-3" data-name="Group 13571">
+                        <g id="Mask_Group_61-3" data-name="Mask Group 61" style="clip-path:url(#clip-path-3)">
+                            <path id="Subtraction_36-3" data-name="Subtraction 36" class="cls-1" d="M43.614 87.228a43.626 43.626 0 0 1-16.977-83.8A43.625 43.625 0 0 1 60.591 83.8a43.342 43.342 0 0 1-16.977 3.428zm0-85.411a41.8 41.8 0 1 0 41.8 41.8 41.844 41.844 0 0 0-41.8-41.8z" transform="translate(.001 .001)"/>
+                        </g>
+                    </g>
+                    <circle id="Ellipse_1685-2" data-name="Ellipse 1685" class="cls-5" cx="2.837" cy="2.837" r="2.837" transform="translate(27.659 81.556)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

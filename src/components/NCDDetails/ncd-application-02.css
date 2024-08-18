@@ -1,0 +1,445 @@
+html {
+    font-size: 0.73vw;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #303030;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    font-size: 1.6rem;
+  }
+  
+  /* Header starts here */
+  #header {
+    padding: 4rem 7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-left {
+    display: flex;
+    gap: 2.3rem;
+  }
+  
+  .header-left img {
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+  
+  .header-left h1 {
+    font-size: 2.4rem;
+  }
+  
+  .header-left div .header-heading-subtext {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header-left div .header-heading-subtext p span {
+    opacity: 0.4;
+  }
+  
+  .header-left div .header-heading-subtext p:first-child {
+    color: #ff0000;
+    opacity: 1;
+  }
+  
+  .header-right .steps {
+    display: flex;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  
+  .steps p {
+    padding: 0.2rem 0.9rem;
+    border-radius: 50%;
+    background-color: #e7e5e9;
+    opacity: 0.8;
+  }
+  
+  .steps p:first-child {
+    padding: 0.2rem 1.1rem;
+  }
+  
+  
+  
+  .steps hr {
+    border: none;
+    background-color: #000;
+    height: 0.2rem;
+    opacity: 0.08;
+    width: 100%;
+    margin-top: 1.1rem;
+  }
+  
+
+  .step-names {
+    margin-top: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+  
+  .step-names p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    text-align: center;
+  }
+  
+  .step-names p:nth-child(1) {
+    text-align: left;
+  }
+  
+  .step-names p:nth-child(2) {
+    opacity: 1;
+  }
+  
+  .step-names p:nth-child(3) {
+    margin-left: 3rem;
+  }
+  
+  .step-names p:last-child {
+    margin-left: 5.5rem;
+  }
+  
+  #container.ncdcontainer2 {
+    padding: 0rem 7rem 16rem 7rem !important;
+    grid-template-columns: auto;
+  }
+  
+  #container h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+  }
+  
+  .fields {
+    display: grid;
+    grid-gap: 3rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1016px;
+  }
+  .fields h2{
+    grid-column: 1/-1;
+    margin-bottom: -10px;
+    margin-top: 25px;
+  }
+  .invest-as select{
+    background: none;
+    border: none;
+  }
+  .single_input input {
+    background: #f0f0f0;
+    border: none;
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.single_input label {
+    opacity: 0.6;
+}
+ .ncdcontainer2 .fields div p {
+    font-size: 14px !important;
+    opacity: 0.6;
+    margin-bottom: 1rem;
+  }
+  
+  .type {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.06);
+    height: 4.8rem;
+    width: 26.4rem;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0, 0.5);
+    padding: 1.1rem 4.7rem;
+    border-radius: 5rem;
+  }
+  
+  .type span {
+    cursor: pointer;
+  }
+  
+  .type .switch {
+    position: absolute;
+    background-image: linear-gradient(107deg, #21f3f3 -77%, #214cf3 96%);
+    color: #ffff;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 4.8rem;
+    border-radius: 5rem;
+    box-sizing: border-box;
+    padding: 1.1rem 0;
+    text-align: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .invest-as {
+    width: 26.4rem;
+    height: 4.8rem;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+    padding: 0 1.6rem;
+    background-color: rgb(0, 0, 0, 0.06);
+    position: relative;
+  }
+  
+  select {
+    font-family: "Poppins", sans-serif;
+    color: #303030;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+  
+  #container h2:last-child {
+    color: #2e276c;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+  }
+  
+  #container h2:last-child img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  
+  footer {
+    background-image: linear-gradient(94deg, #21f3f3 -79%, #214cf3 93%);
+    padding: 1rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer a {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 2.4rem;
+  }
+  
+  footer p span {
+    display: block;
+    font-size: 1.6rem;
+    opacity: 0.6;
+  }
+  
+  footer .buttons {
+    display: flex;
+    gap: 7.5rem;
+  }
+  
+  footer .buttons .prev-btn {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffff;
+    gap: 1.6rem;
+  }
+  
+  footer .buttons .next-btn {
+    font-weight: 600;
+    justify-content: space-between;
+    width: 15.7rem;
+    color: #241f55;
+    background-color: #fff;
+    font-size: 2.4rem;
+    padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+    border-radius: 1.2rem;
+  }
+  
+  @media (max-width: 769px) {
+    html {
+      font-size: 1.29vw;
+    }
+  
+    #header {
+      flex-direction: column-reverse;
+      justify-content: column-reverse;
+      gap: 3rem;
+      padding: 4rem;
+    }
+  
+    .header-left div .header-heading-subtext {
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .header-left div .header-heading-subtext .seperator {
+      display: none;
+    }
+  
+    .step-names {
+      gap: 11rem;
+    }
+  
+    #container {
+      padding: 4rem 4rem 16rem 4rem;
+      
+    }
+  
+    footer {
+      padding: 1rem 4rem;
+    }
+  
+    footer .buttons {
+      gap: 2.5rem;
+    }
+  
+    .fields {
+      flex-direction: column;
+    }
+  
+    .invest-as {
+      width: 100%;
+    }
+
+  section#container.ncdcontainer2 .fields {
+    grid-template-columns: auto;
+    max-width: max-content;
+  }
+
+  #container.ncdcontainer2 {
+    padding: 0rem 3rem 20rem 3rem !important;
+    grid-template-columns: auto;
+  }
+
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    html {
+      font-size: 1.9vw;
+    }
+  
+    #header {
+      padding: 4rem 2rem;
+    }
+  
+    .step-names {
+      gap: 4rem;
+    }
+  
+    #container {
+      padding: 4rem 2rem 16rem 2rem;
+     
+    }
+  
+    footer {
+      padding: 1rem 2rem;
+    }
+    footer p span {
+      font-size: 1rem;
+    }
+    footer .buttons {
+      gap: 1rem;
+    }
+  
+    footer .buttons .prev-btn {
+      gap: 1rem;
+      font-size: 1.8rem;
+    }
+    footer .buttons .next-btn {
+      width: 11.5rem;
+      font-size: 2rem;
+    }
+  }
+  
+
+  
+  /* Demat css part */
+  .addHolder {background: none;width: max-content;font-size: 16px;font-weight: 500;color: #2e276c;display: flex;border: none;align-items: center;}
+
+.addHolder img {max-width: 25px;height: auto !important;margin-right: 10px;}
+
+
+.singledemat .inputs {display: grid;grid-template-columns: repeat(4,1fr);gap: 3rem;align-items: end;margin-top: 15px;}
+
+.singledemat .inputs .removeDmat {width: 75px;
+    height: 4.8rem;
+    border-radius: 32px;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.08);
+    border: solid 1px #f36f21;
+    background: none;}
+
+  #container .singledemat .inputs .removeDmat img {
+      width: 35px;
+      height: auto;
+  }
+
+.singledemat .inputs span {display: block;
+    opacity: 0.6;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #303030;
+    margin-bottom: 15px;}
+
+    a.dAccountOpen {
+      background-image: linear-gradient(107deg, #21f3f3 -77%, #214cf3 96%);
+      color: #ffff;
+       border-radius: 5rem;
+      box-sizing: border-box;
+      padding: 1.1rem 0;
+      text-align: center;
+      transition: all 0.5s ease;
+      cursor: pointer;display: inline-block;max-width: 220px;}
+      a.dAccountOpen:hover
+      {
+        color: #fff;
+        opacity: 0.8;
+      }
+
+
+@media screen and (max-width:767px) {
+  .singledemat .inputs {grid-template-columns: 1fr 1fr; row-gap: 10px;}
+  .singledemat .inputs .removeDmat {    grid-column: 1/-1;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    padding: 0;}
+    .addHolder {width: 100%;text-align: left;}
+}
+
+  /* End dmat css part */
