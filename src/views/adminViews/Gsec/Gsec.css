@@ -1,0 +1,63 @@
+.createGsec {
+  padding: 30px;
+}
+
+.accordion-button {
+  background: #ddd;
+}
+
+.error-msg {
+  color: #e74c3c;
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  width: 320px !important;
+}
+
+div:where(.swal2-container) h2:where(.swal2-title) {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+div:where(.swal2-container) .swal2-html-container {
+  font-size: 14px !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+  height: 35px !important;
+  padding: 0 20px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+div:where(.swal2-container) div:where(.swal2-actions) {
+  margin: 10px 0 0 0 !important;
+}
+
+.accordion-body .table-responsive {
+  overflow: auto;
+}
+
+.action_btn {
+  width: 200px;
+  gap: 20px;
+}
+
+.accordion-body textarea {
+  min-height: 150px;
+  padding: 10px;
+  line-height: unset;
+  color: #212121;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .action_btn {
+    width: unset;
+  }
+  .delete_btn {
+    /* margin-bottom: 10px !important; */
+  }
+}

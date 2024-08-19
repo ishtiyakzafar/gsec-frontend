@@ -5,6 +5,8 @@ import IssuesTable from './views/adminViews/Issues/IssuesTable.js'
 import BannerTable from './views/adminViews/BannerTable.js'
 import BannerForm from './views/adminViews/BannerForm.js'
 import IssuesDetailPage from './views/adminViews/Issues/IssuesDetailPage.js'
+import Gsec from 'views/adminViews/Gsec/Gsec.js'
+import CreateGsec from 'views/adminViews/Gsec/CreateGsec.js'
 
 export var routes = [
 
@@ -36,26 +38,27 @@ export var routes = [
     component: IssuesDetailPage,
     layout: "/admin",
   },
-  // {
-  //   path: "/banners",
-  //   name: "Banners",
-  //   icon: "nc-icon nc-album-2",
-  //   component: BannerTable,
-  //   layout: "/admin",
-  // },  
-  // {
-  //   path: "/banner-create",
-  //   name: "Create Banners",
-  //   icon: "nc-icon nc-simple-add",
-  //   component: BannerForm,
-  //   layout: "/admin",
-  // },
+  {
+    path: "/create-gsec",
+    name: "Create G-Secs",
+    icon: "nc-icon nc-simple-add",
+    component: CreateGsec,
+    layout: "/admin",
+  },
+  {
+    path: "/gsec",
+    name: "G-Secs",
+    icon: "nc-icon nc-bank",
+    component: Gsec,
+    layout: "/admin",
+  },
+
 
 
 ]
 
 export var sidebarRoutes = [
-  
+
   {
     path: "/dashboard",
     name: "Dashboard",
@@ -77,19 +80,20 @@ export var sidebarRoutes = [
     component: IssuesTable,
     layout: "/admin",
   },
-  // {
-  //   path: "/banners",
-  //   name: "Banners",
-  //   icon: "nc-icon nc-album-2",
-  //   component: BannerTable,
-  //   layout: "/admin",
-  // },  
-  // {
-  //   path: "/banner-create",
-  //   name: "Create Banners",
-  //   icon: "nc-icon nc-simple-add",
-  //   component: BannerForm,
-  //   layout: "/admin",
-  // },
-  
+  {
+    path: "/create-gsec",
+    name: "Create G-Secs",
+    icon: "nc-icon nc-simple-add",
+    component: CreateGsec,
+    layout: "/admin",
+  },
+  {
+    path: "/gsec",
+    name: "G-Secs",
+    icon: "nc-icon nc-bank",
+    component: Gsec,
+    layout: "/admin",
+  },
+
+
 ]
